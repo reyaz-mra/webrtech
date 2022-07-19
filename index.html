@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebR</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+     integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="tel:8927593853"><button onclick="topFunction()" id="myBtn" title="Call Now"><i class="fa fa-phone" aria-hidden="true"></i></button></a>
+    <header>
+        <a href="#" class="logo"><span>WebR </span>Technology</a>
+
+        <nav class="navbar" id="navbar">
+            <a href="#home" onclick="navRemove()">home</a>
+            <a href="#about" onclick="navRemove()">about us</a>
+            <a href="#samples" onclick="navRemove()">Samples</a>
+            <a href="#pricing" onclick="navRemove()">Pricing</a>
+            <a href="#features" onclick="navRemove()">Features</a>
+            <a href="#contact" onclick="navRemove()">contact us</a>
+            <!-- <a href="#corporate" onclick="navRemove()">FR corporate</a> -->
+        </nav>
+        
+        <div class="icon">
+            <!-- <i class="fa-brands fa-google-play" id="download" title="download app" onclick="alert('No App is linked here now')"></i> -->
+            <i class="fas fa-bars" id="menu-bars"></i>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Design and Develop your website at affordable Price </h3>
+                 <a href="tel:8927593853" class="btn"><i class="fa fa-phone" aria-hidden="true"></i> call now</a>
+        </div>
+        <div class="image">
+            <img src="https://cdn.pixabay.com/photo/2019/10/09/07/28/development-4536630_1280.png" alt="">
+        </div>
+    </section>
+
+
+    <section class="about" id="about">
+        <h1 class="heading">know us better</h1>
+        <div class="column reveal">
+            <div class="image">
+                <img src="images/aboutus.jpg" alt="">
+            </div>
+            <div class="content">
+                <p>Our vision is to expand our web designing and software development buisness around the world with providing our clients customized and effective IT service to target their goal.<br>
+                     We talk to our clients understand the actual requirement and developed the project as client needs and requirement with a professional and attractive design</p>
+                <!-- <a href="#" class="btn">read more here</a> -->
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="samples">
+        <h1 class="heading">website features</h1>
+        <div class="box-container">
+            <div class="box">
+                <!-- <img src="image/f-icon1.jpg"> -->
+                <h3>Blogging Website</h3>
+                <p>A Complete full stack website with authentication</p>
+                <a href="spaceify.adaptable.app" class="btn">Check Here</a>
+            </div>
+
+            <div class="box">
+                <!-- <img src="image/f-icon2.jpg"> -->
+                <h3>Rapido Clone</h3>
+                <p>FastTravel website is just a clone of Rapido Webiste</p>
+                <a href="https://reyaz-mra.github.io/fasttravel/" class="btn">check Here</a>
+            </div>
+
+            <div class="box">
+                <!-- <img src="image/f-icon3.jpg"> -->
+                <h3>WebTech</h3>
+                <p>A single page responsive website</p>
+                <a href="https://reyaz-mra.github.io/webtech/" class="btn">check here</a>
+            </div>
+        </div>
+     </section>
+
+
+
+    <section class="features" id="features">
+        <h1 class="heading">website features</h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="https://iexperto.io/wp-content/uploads/2020/08/Responsive-Web-Design.jpeg">
+                <h3>Responsive Website</h3>
+                <a href="https://en.wikipedia.org/wiki/Responsive_web_design" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img src="https://asapkerala.gov.in/wp-content/uploads/2022/02/ui-design-logo-Cluster-Development-IT-ITES.jpg">
+                <h3>Attractive UI design</h3>
+                <a href="https://www.interaction-design.org/literature/topics/ui-design" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img src="https://www.webnode.com/blog/wp-content/uploads/2021/03/SEO.jpg">
+                <h3>SEO friendly</h3>
+                <a href="https://developers.google.com/search/docs/beginner/seo-starter-guide" class="btn">read more</a>
+            </div>
+        </div>
+     </section>
+
+    <section class="features">
+        <h1 class="heading">What's in it for you</h1>
+        <div class="customer-box reveal" id="customer">
+            <div class="box">
+                <img src="images/customer1.png">
+                <h3>customer satisfaction</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/customer2.png">
+                <h3>affordable price</h3>
+            </div>
+
+            <div class="box">
+                <img src="https://mountaingoatgvl.com/cms/wp-content/uploads/2019/06/100percentwide.png">
+                <h3>Responsive Website</h3>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="pricing" id="pricing">
+        <h1 class="heading"> Our Pricing Plans </h1>
+        <div class="box-container">
+
+           <div class="box">
+                   <h3 class="title">basic</h3>
+                   <div class="price">Rs 3999 <span>/-</span></div>
+               <ul>
+                   <li><i class="fas fa-check"></i>100% responsive website</li>
+                   <li><i class="fas fa-check"></i>5 pages website</li>
+                   <li><i class="fas fa-check"></i>Frontend</li>
+                   <li><i class="fas fa-times"></i>Backend</li>
+                   <li><i class="fas fa-times"></i>multiple revisions</li>
+               </ul>
+               
+           </div>
+
+           <div class="box">
+               <h3 class="title">standard</h3>
+               <div class="price">Rs 6599 <span>/-</span></div>
+               <ul>
+                   <li><i class="fas fa-check"></i>100% responsive website</li>
+                   <li><i class="fas fa-check"></i>8 pages website</li>
+                   <li><i class="fas fa-check"></i>Frontend</li>
+                   <li><i class="fas fa-check"></i>Backend</li>
+                   <li><i class="fas fa-times"></i>multiple revisions</li>
+               </ul>
+               
+           </div>
+
+           <div class="box">
+               <h3 class="title">premium</h3>
+               <div class="price">Rs 12499 <span>/-</span></div>
+               <ul>
+                   <li><i class="fas fa-check"></i>100% responsive website</li>
+                   <li><i class="fas fa-check"></i>unlimited page</li>
+                   <li><i class="fas fa-check"></i>Frontend</li>
+                   <li><i class="fas fa-check"></i>Backend</li>
+                   <li><i class="fas fa-check"></i>multiple revisions</li>
+               </ul>
+               
+           </div>
+       </div>
+    </section>
+
+
+    
+
+    <section class="contact" id="contact">
+        <div class="image">
+            <img src="images/contactus.png" alt="">
+        </div>
+        <form action="" class="reveal">
+            <h1 class="heading">contact us</h1>
+
+            <div class="inputBox">
+               <label>Mobile :</label>
+                <h2 style="margin-bottom: 2.5rem;">+91 89275 93853</h2>
+            </div>
+
+            <div class="inputBox">
+               <label>email</label>
+               <h2 style="margin-bottom: 2.5rem; text-transform: none;">webrtechnology@gmail.com</h2>
+           </div>
+
+           <div class="inputBox">
+               <label>Address</label>
+                  <h2>Asansol, Durgapur - West Bengal</h2>
+           </div>
+        </form>
+    </section>
+
+
+    <div class="footer">
+        <div class="box-container">
+
+           <div class="box">
+               <h3>about us</h3>
+               <p>Our vision is to expand our web designing and software development
+                 buisness around the world with providing our clients customized and effective IT service to target their goal.</p>
+           </div>
+           <div class="box">
+               <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#about">about us</a>
+                <a href="#sample">sample</a>
+                <a href="#pricing">pricing</a>
+                <a href="#features">features</a>
+                <a href="#contact">contact us</a>
+           </div>
+           <!-- <div class="box">
+               <h3>follow us</h3>
+               <a href="#">LinkedIn</a>
+               <a href="#">Instagram</a>
+               <a href="#">facebook</a>
+               <a href="#">twitter</a>
+           </div> -->
+           <div class="box">
+               <h3>contact info</h3>
+               <div class="info">
+                   <i class="fas fa-phone"></i>
+                   <p>+91 89275 93853 <br> +91 93332 18790</p>
+               </div>
+               <div class="info">
+                   <i class="fas fa-envelope"></i>
+                   <p style="text-transform: none;"> webrtechnology@gmail.com </p>
+               </div>
+               <div class="info">
+                   <i class="fas fa-map-marker-alt"></i>
+                   <p>Asansol,Durgapur - West Bengal </p>
+               </div>
+           </div>
+        </div>
+        <h1 class="credit">&copy; copyright @2022 by Md Reyaz Alam</h1>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+         $(document).ready(function(){
+            $('.post-container').owlCarousel({
+                pagination:false,
+                autoplay:true,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    700:{
+                        items:2
+                    },
+                    1000:{
+                        items:3
+                    },
+                    1200:{
+                        items:4
+                    },
+                }
+            })
+        })
+
+
+        var mybutton = document.getElementById("myBtn");
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+    </script>
+</body>
+</html>
